@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Sanic_controler:MonoBehaviour
 {
@@ -16,7 +17,7 @@ public class Sanic_controler:MonoBehaviour
     public static Sanic_controler instance;
 
     public Transform firepoint;
-  
+    
 
 
     // Start is called before the first frame update
@@ -104,6 +105,10 @@ public class Sanic_controler:MonoBehaviour
            
 
         }
+        
+
+
+
     }
     void OnCollisionExit2D(Collision2D other)
     {
