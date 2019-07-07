@@ -275,7 +275,7 @@ GameObject:
   - component: {fileID: 58830534}
   m_Layer: 0
   m_Name: pisotierraflot (8)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -381,7 +381,7 @@ GameObject:
   - component: {fileID: 125285897}
   m_Layer: 0
   m_Name: piedras
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -462,7 +462,7 @@ GameObject:
   - component: {fileID: 130655114}
   m_Layer: 0
   m_Name: pisoterra (26)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -634,7 +634,7 @@ GameObject:
   - component: {fileID: 162878902}
   m_Layer: 0
   m_Name: piedras (2)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -715,7 +715,7 @@ GameObject:
   - component: {fileID: 167485856}
   m_Layer: 0
   m_Name: pisoterra (7)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -822,7 +822,7 @@ GameObject:
   - component: {fileID: 169761410}
   m_Layer: 0
   m_Name: pisotierraflot (7)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -929,7 +929,7 @@ GameObject:
   - component: {fileID: 286057391}
   m_Layer: 0
   m_Name: pisotierraflot (4)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1320,7 +1320,7 @@ GameObject:
   - component: {fileID: 324497412}
   m_Layer: 0
   m_Name: pisoterra (27)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1812,7 +1812,7 @@ GameObject:
   - component: {fileID: 419399211}
   m_Layer: 0
   m_Name: pisoterra (24)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1919,7 +1919,7 @@ GameObject:
   - component: {fileID: 426665743}
   m_Layer: 0
   m_Name: pisoterra (14)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2026,7 +2026,7 @@ GameObject:
   - component: {fileID: 429481617}
   m_Layer: 0
   m_Name: pisoterra (4)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2251,7 +2251,7 @@ GameObject:
   - component: {fileID: 522017668}
   m_Layer: 0
   m_Name: pisoterra (30)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2691,7 +2691,7 @@ GameObject:
   - component: {fileID: 617711899}
   m_Layer: 0
   m_Name: pisoterra (13)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2798,7 +2798,7 @@ GameObject:
   - component: {fileID: 626422901}
   m_Layer: 0
   m_Name: pisoterra (19)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2905,7 +2905,7 @@ GameObject:
   - component: {fileID: 637284571}
   m_Layer: 0
   m_Name: pisotierraflot (1)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3069,7 +3069,7 @@ GameObject:
   - component: {fileID: 710557684}
   m_Layer: 0
   m_Name: pisoterra (25)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3596,7 +3596,7 @@ GameObject:
   - component: {fileID: 797860378}
   m_Layer: 0
   m_Name: pisoterra (2)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3703,7 +3703,7 @@ GameObject:
   - component: {fileID: 816145155}
   m_Layer: 0
   m_Name: pisoterra (15)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4054,7 +4054,7 @@ GameObject:
   - component: {fileID: 860243997}
   m_Layer: 0
   m_Name: pisoterra (17)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4161,7 +4161,7 @@ GameObject:
   - component: {fileID: 909588583}
   m_Layer: 0
   m_Name: pisotierraflot (6)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4395,7 +4395,7 @@ GameObject:
   - component: {fileID: 961960186}
   m_Layer: 0
   m_Name: pisoterra (12)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4501,7 +4501,7 @@ GameObject:
   - component: {fileID: 964363391}
   m_Layer: 0
   m_Name: piedras (1)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4582,7 +4582,7 @@ GameObject:
   - component: {fileID: 987127014}
   m_Layer: 0
   m_Name: pisoterra (6)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4689,7 +4689,7 @@ GameObject:
   - component: {fileID: 1006469801}
   m_Layer: 0
   m_Name: pisoterra (11)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4796,7 +4796,7 @@ GameObject:
   - component: {fileID: 1098379038}
   m_Layer: 0
   m_Name: pisoterra (8)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4903,7 +4903,7 @@ GameObject:
   - component: {fileID: 1103231497}
   m_Layer: 0
   m_Name: pisotierraflot (3)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5109,7 +5109,7 @@ GameObject:
   - component: {fileID: 1175683923}
   m_Layer: 0
   m_Name: pisoterra (20)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5216,7 +5216,7 @@ GameObject:
   - component: {fileID: 1176133644}
   m_Layer: 0
   m_Name: pisoterra (3)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5323,7 +5323,7 @@ GameObject:
   - component: {fileID: 1193837197}
   m_Layer: 0
   m_Name: pisoterra (29)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5430,7 +5430,7 @@ GameObject:
   - component: {fileID: 1198806554}
   m_Layer: 0
   m_Name: pisoterra (10)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5537,7 +5537,7 @@ GameObject:
   - component: {fileID: 1282892366}
   m_Layer: 0
   m_Name: pisoterra
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5644,7 +5644,7 @@ GameObject:
   - component: {fileID: 1298973379}
   m_Layer: 0
   m_Name: pisoterra (23)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5751,7 +5751,7 @@ GameObject:
   - component: {fileID: 1328189317}
   m_Layer: 0
   m_Name: pisoterra (18)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6022,7 +6022,7 @@ GameObject:
   - component: {fileID: 1404732600}
   m_Layer: 0
   m_Name: pisoterra (5)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6128,7 +6128,7 @@ GameObject:
   - component: {fileID: 1438860891}
   m_Layer: 0
   m_Name: piedras (3)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6250,7 +6250,7 @@ GameObject:
   - component: {fileID: 1528090662}
   m_Layer: 0
   m_Name: pisotierraflot
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6528,7 +6528,7 @@ GameObject:
   - component: {fileID: 1615982313}
   m_Layer: 0
   m_Name: pisoterra (16)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6799,7 +6799,7 @@ GameObject:
   - component: {fileID: 1721133140}
   m_Layer: 0
   m_Name: pisotierraflot (2)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6999,7 +6999,7 @@ GameObject:
   - component: {fileID: 1796139218}
   m_Layer: 0
   m_Name: pisoterra (31)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7106,7 +7106,7 @@ GameObject:
   - component: {fileID: 1797220814}
   m_Layer: 0
   m_Name: pisoterra (9)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7355,7 +7355,7 @@ GameObject:
   - component: {fileID: 1833524978}
   m_Layer: 9
   m_Name: pisoterra (1)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7462,7 +7462,7 @@ GameObject:
   - component: {fileID: 1840957866}
   m_Layer: 0
   m_Name: pisoterra (33)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7569,7 +7569,7 @@ GameObject:
   - component: {fileID: 1866061648}
   m_Layer: 0
   m_Name: pisoterra (32)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7676,7 +7676,7 @@ GameObject:
   - component: {fileID: 1964034271}
   m_Layer: 0
   m_Name: pisoterra (21)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7947,7 +7947,7 @@ GameObject:
   - component: {fileID: 1998811843}
   m_Layer: 0
   m_Name: pisoterra (28)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8054,7 +8054,7 @@ GameObject:
   - component: {fileID: 2001251650}
   m_Layer: 0
   m_Name: pisotierraflot (5)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8159,7 +8159,7 @@ GameObject:
   - component: {fileID: 2053797749}
   m_Layer: 0
   m_Name: Piso
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8760,7 +8760,7 @@ GameObject:
   - component: {fileID: 2124526240}
   m_Layer: 0
   m_Name: pisoterra (22)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

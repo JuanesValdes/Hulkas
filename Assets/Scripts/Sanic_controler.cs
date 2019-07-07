@@ -26,9 +26,9 @@ public class Sanic_controler:MonoBehaviour
         SanicSpeed = 5;
         SanicRigid= GetComponent<Rigidbody2D>();
         SanicAnim= GetComponent<Animator>();
-       SanicImpulse = 5;
+       SanicImpulse = 9;
         JumpLock = false;
-        JumpLock2 = false;
+        
         Controles = true;
 
     }
@@ -41,6 +41,8 @@ public class Sanic_controler:MonoBehaviour
             SanicRigid.velocity = new Vector2(SanicSpeed, 0);
             transform.localScale = new Vector2(1f, 1f);
             SanicAnim.SetBool(name: "Player_Run", value: true);
+            SanicAnim.SetBool(name: "Player_Jump", value: false);
+            SanicAnim.SetBool(name: "Player_Idle", value: false);
         }
         else
         {
@@ -51,22 +53,29 @@ public class Sanic_controler:MonoBehaviour
             SanicRigid.velocity = new Vector2(-SanicSpeed, 0);
             transform.localScale = new Vector2(-1f, 1f);
             SanicAnim.SetBool(name: "Player_Run", value: true);
+            SanicAnim.SetBool(name: "Player_Jump", value: false);
+            SanicAnim.SetBool(name: "Player_Idle", value: false);
         }
-        if ((Input.GetKeyDown(KeyCode.Space)))
+        if ((Input.GetKeyDown(KeyCode.Space))&& (Input.GetKey(KeyCode.D) && (Input.GetKey(KeyCode.A) && Controles == true)))
         {
             jump();
+            SanicAnim.SetBool(name: "Player_Jump", value: true);
+            SanicAnim.SetBool(name: "Player_Idle", value: false);
         }
         if ((Input.GetKey(KeyCode.Space))&& (Input.GetKey(KeyCode.D))&& Controles == true)
         {
             SanicRigid.velocity = new Vector2(3, SanicImpulse);
             Debug.Log("saltando de lado derecho");
-
+            SanicAnim.SetBool(name: "Player_Jump", value: true);
+            SanicAnim.SetBool(name: "Player_Idle", value: false);
         }
+        
         if ((Input.GetKey(KeyCode.Space)) && (Input.GetKey(KeyCode.A)) && Controles == true)
         {
             SanicRigid.velocity = new Vector2(-3, SanicImpulse);
             Debug.Log("saltando de lado izquierdo");
-
+            SanicAnim.SetBool(name: "Player_Jump", value: true);
+            SanicAnim.SetBool(name: "Player_Idle", value: false);
         }
         
 
@@ -79,28 +88,20 @@ public class Sanic_controler:MonoBehaviour
         {
             SanicRigid.velocity = new Vector2(0, SanicImpulse);
             JumpLock = true;
+           
             Debug.Log("saltando");
         }
-        else
-        {
-            if (JumpLock2 == false)
-            {
-                SanicRigid.velocity = new Vector2(0, SanicImpulse);
-                JumpLock2 = true;
-                Debug.Log("dobleSalto");
-
-            }
-        }
+       
          
     }
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.tag == "PISOMAGICO") 
+        if (other.gameObject.tag == "Piso") 
         {
             Debug.Log("colisiono");
             JumpLock = false;
-            JumpLock2 = false;
+            
             Controles = true;
            
 
@@ -112,7 +113,7 @@ public class Sanic_controler:MonoBehaviour
     }
     void OnCollisionExit2D(Collision2D other)
     {
-        if (other.gameObject.tag == "PISOMAGICO") 
+        if (other.gameObject.tag == "Piso") 
         {
 
             Controles = false;
@@ -123,5 +124,14 @@ public class Sanic_controler:MonoBehaviour
     {
         return transform.position.x;
     }
-    
+
+    private void Awake()
+    {
+        
+        if (SanicSpeed == 0)
+        {
+            SanicAnim.SetBool(name: "Player_Idle", value: true);
+            SanicAnim.SetBool(name: "Player_Jump", value: false);
+        }
+    }
 }
