@@ -8567,6 +8567,7 @@ GameObject:
   - component: {fileID: 2080905934}
   - component: {fileID: 2080905931}
   - component: {fileID: 2080905935}
+  - component: {fileID: 2080905936}
   m_Layer: 0
   m_Name: sanicmalo_5
   m_TagString: enemain
@@ -8727,6 +8728,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.2348795, y: 0.23831391}
   m_EdgeRadius: 0
+--- !u!95 &2080905936
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080905929}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: afce496ff6568814483e59892e1bdce1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2124526238
 GameObject:
   m_ObjectHideFlags: 0
