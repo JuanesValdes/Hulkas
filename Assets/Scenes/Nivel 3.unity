@@ -15453,7 +15453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ab1faf00ae0ea8418a91380d790b90c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newLevel: Win
+  newLevel: Fin
 --- !u!95 &1317937207
 Animator:
   serializedVersion: 3
