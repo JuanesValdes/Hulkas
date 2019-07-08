@@ -56,13 +56,13 @@ public class Sanic_controler:MonoBehaviour
             SanicAnim.SetBool(name: "Player_Jump", value: false);
             SanicAnim.SetBool(name: "Player_Idle", value: false);
         }
-        if ((Input.GetKeyDown(KeyCode.Space))&& (Input.GetKey(KeyCode.D) && (Input.GetKey(KeyCode.A) && Controles == true)))
+        if ((Input.GetKeyDown(KeyCode.Space)))
         {
             jump();
             SanicAnim.SetBool(name: "Player_Jump", value: true);
             SanicAnim.SetBool(name: "Player_Idle", value: false);
         }
-        if ((Input.GetKey(KeyCode.Space))&& (Input.GetKey(KeyCode.D))&& Controles == true)
+        if ((Input.GetKey(KeyCode.Space))&& (Input.GetKey(KeyCode.D))&& Controles == false)
         {
             SanicRigid.velocity = new Vector2(3, SanicImpulse);
             Debug.Log("saltando de lado derecho");
@@ -70,7 +70,7 @@ public class Sanic_controler:MonoBehaviour
             SanicAnim.SetBool(name: "Player_Idle", value: false);
         }
         
-        if ((Input.GetKey(KeyCode.Space)) && (Input.GetKey(KeyCode.A)) && Controles == true)
+        if ((Input.GetKey(KeyCode.Space)) && (Input.GetKey(KeyCode.A)) && Controles == false)
         {
             SanicRigid.velocity = new Vector2(-3, SanicImpulse);
             Debug.Log("saltando de lado izquierdo");
@@ -115,7 +115,7 @@ public class Sanic_controler:MonoBehaviour
     {
         if (other.gameObject.tag == "Piso") 
         {
-
+            JumpLock = true;
             Controles = false;
 
         }
